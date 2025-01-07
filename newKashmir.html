@@ -2742,16 +2742,23 @@
             </tbody>
         </table>
     </div>
+    
     <script>
-        document.addEventListener("DOMContentLoaded", () => {
-    const images = document.querySelectorAll("img[data-src]");
-
-    images.forEach(img => {
-        img.setAttribute("loading", "lazy");
-        img.src = img.dataset.src;
+    // Wait for the DOM content (HTML structure) to be fully loaded
+    document.addEventListener("DOMContentLoaded", () => {
+        // Select all image elements that have a 'data-src' attribute (lazy-loaded images)
+        const images = document.querySelectorAll("img[data-src]");
+        // Iterate over each image found in the 'images' NodeList
+        images.forEach(img => {     
+            // Add a 'loading' attribute with value 'lazy' to each image element to enable lazy loading
+            img.setAttribute("loading", "lazy");           
+            // Set the 'src' attribute of the image to the value in 'data-src' (this starts the image loading)
+            img.src = img.dataset.src;
+        });
     });
-});
-    </script>
+
+</script>
+
 
 </body>
 
