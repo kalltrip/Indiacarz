@@ -11,7 +11,6 @@
     <title>4N 5D Tours</title>
     <!--[if (mso 16)]><style type="text/css">     a {text-decoration: none;}     </style><![endif]--><!--[if gte mso 9]><style>sup { font-size: 100% !important; }</style><![endif]--><!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:AllowPNG></o:AllowPNG> <o:PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> </xml><![endif]-->
     <style type="text/css">
-
         #outlook a {
             padding: 0;
         }
@@ -64,24 +63,6 @@
             background: #ffd300 !important;
         }
 
-        /* General Styles */
-        .adapt-img {
-            width: 75px;
-            height: 75px;
-        }
-
-        /* Responsive Styles */
-        @media only screen and (max-width: 500px) {
-            #mobileMenu {
-                display: none;
-                /* Initially hidden for mobile */
-            }
-
-            .adapt-img {
-                width: 10px !important;
-                height: 10px !important;
-            }
-        }
 
         @media only screen and (max-width:600px) {
 
@@ -248,7 +229,6 @@
             .es-m-p0r {
                 width: 100% !important;
                 padding-right: 0px !important
-                
             }
 
             .es-m-p0l {
@@ -305,10 +285,12 @@
 
             table.es-social {
                 display: inline-block !important
+                
             }
 
             table.es-social td {
                 display: inline-block !important
+                
             }
 
             .es-desk-hidden {
@@ -318,6 +300,41 @@
                 max-height: inherit !important
             }
         }
+       
+@media only screen and (max-width: 500px) {
+    .adapt-img {
+                width: 10px !important;
+                height: 10px !important;
+            }
+    /* Apply flexbox to the parent row to align items in a row */
+    .es-left, .es-right {
+        float: none;
+        width: 100%;
+        display: flex;
+        justify-content: center; /* Center the content horizontally */
+        align-items: center; /* Align the content vertically */
+        text-align: center;
+    }
+
+    /* Ensure the social icons are displayed in a row */
+    .es-social {
+        display: flex;
+        justify-content: center; /* Center icons horizontally */
+        align-items: center; /* Align icons vertically */
+    }
+
+    .es-social td {
+        margin-right: 10px;
+    }
+
+    /* Center the contact information */
+    .es-right h4, .es-right p {
+        text-align: center;
+        margin: 0; /* Remove extra margin */
+    }
+}
+
+
     </style>
 </head>
 
@@ -399,7 +416,7 @@
                                                                     <a href="https://indiacarz.com/" target="_blank">
                                                                         <img alt="" class="adapt-img"
                                                                             src="https://indiacarz-public.s3.ap-south-1.amazonaws.com/indiacarz_new_logo_240w.png"
-                                                                            style="display:block;border:0px;outline:none;text-decoration:none;">
+                                                                            style="display:block;border:0px;outline:none;text-decoration:none;width: 50px;">
                                                                     </a>
                                                                 </td>
 
@@ -407,7 +424,7 @@
                                                                 <td align="right" style="width:50%;">
                                                                     <button onclick="toggleMenu()"
                                                                         style="background:none;border:none;cursor:pointer;font-size:26px;font-weight:bold;">☰
-                                                                        </button>
+                                                                    </button>
                                                                 </td>
                                                             </tr>
                                                         </table>
@@ -624,7 +641,8 @@
                                                                                     </td>
                                                                                 </tr>
                                                                                 <tr style="border-collapse:collapse">
-                                                                                    <td align="center" style="padding:0;Margin:0">
+                                                                                    <td align="center"
+                                                                                        style="padding:0;Margin:0">
                                                                                         <p
                                                                                             style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#280909;font-size:14px">
                                                                                             Beautful scene from Srinagar
@@ -785,7 +803,6 @@
                                                                 </tr>
                                                             </tbody>
                                                         </table>
-                                                        <!--[if mso]></td><td style="width:20px"></td><td style="width:270px" valign="top"><![endif]-->
 
                                                         <table align="right" cellpadding="0" cellspacing="0"
                                                             class="es-right"
@@ -852,7 +869,7 @@
                                                                 </tr>
                                                             </tbody>
                                                         </table>
-                                                        <!--[if mso]></td></tr></table><![endif]-->
+
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -860,7 +877,7 @@
                                     </td>
                                 </tr>
                             </tbody>
-                        </table>
+                        </table>-->
 
                         <table align="center" cellpadding="0" cellspacing="0" class="es-content"
                             style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;">
@@ -1021,8 +1038,7 @@
                                                                 </tr>
                                                             </tbody>
                                                         </table>
-                                                        <!--[if mso]></td><td style="width:10px"></td>
-<td style="width:276px" valign="top"><![endif]-->
+
 
                                                         <table align="right" cellpadding="0" cellspacing="0"
                                                             class="es-right"
@@ -1171,13 +1187,13 @@
                                                                 </tr>
                                                             </tbody>
                                                         </table>
-                                                        <!--[if mso]></td></tr></table><![endif]-->
+
                                                     </td>
                                                 </tr>
                                                 <tr style="border-collapse:collapse">
                                                     <td bgcolor="#fafafa"
                                                         style="Margin:0;padding-top:10px;padding-left:20px;padding-right:20px;padding-bottom:25px;background-color:#fafafa;background-position:center bottom">
-                                                        <!--[if mso]><table style="width:560px" cellpadding="0" cellspacing="0"><tr><td style="width:274px" valign="top"><![endif]-->
+
                                                         <table cellpadding="0" cellspacing="0" class="es-left"
                                                             style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
                                                             <tbody>
@@ -2293,10 +2309,9 @@
                                     </td>
                                 </tr>
                             </tbody>
-
                         </table>
 
-                        <table align="center" cellpadding="0" cellspacing="0" class="es-content"
+                        <!--<table align="center" cellpadding="0" cellspacing="0" class="es-content"
                             style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;">
                             <tbody>
                                 <tr style="border-collapse:collapse">
@@ -2304,7 +2319,7 @@
                                         background="https://aisxkj.stripocdn.email/content/guids/CABINET_1b5fb048a5d9946071b8b6f13f312568/images/6311559759567991.png"
                                         bgcolor="#f7f7f7"
                                         style="padding:0;Margin:0;background-color:#f7f7f7;background-image:url(https://aisxkj.stripocdn.email/content/guids/CABINET_1b5fb048a5d9946071b8b6f13f312568/images/6311559759567991.png);background-repeat:no-repeat;background-position:center top">
-                                        <!--[if gte mso 9]><v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:300px;"> <v:fill type="tile" src="https://uxyja.stripocdn.email/content/guids/CABINET_1b5fb048a5d9946071b8b6f13f312568/images/27221559766064763.jpg"></v:fill> <v:textbox inset="0,0,0,0"><![endif]-->
+                                       
                                         <div>
                                             <table align="center" bgcolor="transparent" cellpadding="0" cellspacing="0"
                                                 class="es-footer-body"
@@ -2313,7 +2328,7 @@
                                                     <tr style="border-collapse:collapse">
                                                         <td bgcolor="transparent"
                                                             style="padding:0;Margin:0;padding-top:20px;padding-left:20px;padding-right:20px;background-position:center top;background-color:transparent">
-                                                            <!--[if mso]><table style="width:560px" cellpadding="0" cellspacing="0"><tr><td style="width:270px" valign="top"><![endif]-->
+                                                           
                                                             <table cellpadding="0" cellspacing="0" class="es-left"
                                                                 style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
                                                                 <tbody>
@@ -2383,7 +2398,7 @@
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
-                                                            <!--[if mso]></td><td style="width:20px"></td><td style="width:270px" valign="top"><![endif]-->
+                                                           
 
                                                             <table align="right" cellpadding="0" cellspacing="0"
                                                                 class="es-right"
@@ -2443,13 +2458,13 @@
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
-                                                            <!--[if mso]></td></tr></table><![endif]-->
+                                                           
                                                         </td>
                                                     </tr>
                                                     <tr style="border-collapse:collapse">
                                                         <td
                                                             style="padding:0;Margin:0;padding-left:20px;padding-right:20px;background-position:center top">
-                                                            <!--[if mso]><table style="width:560px" cellpadding="0" cellspacing="0"><tr><td style="width:270px" valign="top"><![endif]-->
+                                                           
                                                             <table cellpadding="0" cellspacing="0" class="es-left"
                                                                 style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
                                                                 <tbody>
@@ -2561,19 +2576,171 @@
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
-                                                            <!--[if mso]></td></tr></table><![endif]-->
+                                                           
                                                         </td>
                                                     </tr>
                                                 </tbody>
                                             </table>
-                                            <!--[if gte mso 9]></v:textbox> </v:rect><![endif]-->
+                                            
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>-->
+                        <table align="center" cellpadding="0" cellspacing="0" class="es-content"
+                            style="border-collapse:collapse; border-spacing:0; table-layout:fixed; width:100%; max-width:600px;">
+                            <tbody>
+                                <tr>
+                                    <td align="center"
+                                        style="background-color:#f7f7f7; background-image:url('https://aisxkj.stripocdn.email/content/guids/CABINET_1b5fb048a5d9946071b8b6f13f312568/images/6311559759567991.png'); background-repeat:no-repeat; background-position:center top; padding:20px;">
+                                        <div style="max-width:600px; margin:0 auto;">
+                                            <table align="center" bgcolor="transparent" cellpadding="0" cellspacing="0"
+                                                class="es-footer-body"
+                                                style="background-color:transparent; width:100%;">
+                                                <tbody>
+                                                    <tr>
+                                                        <td style="padding:20px; background-color: #999999;">
+                                                            <table cellpadding="0" cellspacing="0" class="es-left"
+                                                                style="float:left; width:48%;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" valign="top">
+                                                                            <h4
+                                                                                style="font-family:'Arial', sans-serif; color:#8f0b0b; font-size:24px; line-height:28px; margin:0;">
+                                                                                Join Our Mailing List</h4>
+                                                                            <p
+                                                                                style="font-family:'Arial', sans-serif; color:#000000; font-size:16px; line-height:24px; margin:5px 0;">
+                                                                                <span style="color:#000000;">Click
+                                                                                    on</span>
+                                                                                <a href="https://directmail.kalltrip.com/subscription?f=JOQ2FnZjOB3RPFHprKiATwOeX5Qe01ITAfJFVatQAPbcQiH4mJ54qgeWF2GARYLJ"
+                                                                                    style="color:#0822a3; text-decoration:underline;">this
+                                                                                    link</a>
+                                                                                <span style="color:#000000;"> to join
+                                                                                    and get special offers and spot
+                                                                                    rates. All Rates Indicative.</span>
+                                                                            </p>
+                                                                            <p
+                                                                                style="font-family:'Arial', sans-serif; color:#220d32; font-size:14px; line-height:20px; margin:0;">
+                                                                                Kall Trip P Ltd is 14 years old Co based
+                                                                                in Mumbai, India.</p>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+
+                                                            <table align="right" cellpadding="0" cellspacing="0"
+                                                                class="es-right" style="float:right; width:48%;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center"
+                                                                            style="padding-top: 20px; background-color: #999999;">
+                                                                            <h4
+                                                                                style="font-family:'Arial', sans-serif; color:#8f0b0b; font-size:24px; line-height:28px; margin:0;">
+                                                                                Contact Us</h4>
+                                                                            <p
+                                                                                style="font-family:'Arial', sans-serif; color:#000000; font-size:16px; line-height:24px; margin:5px 0;">
+                                                                                Suresh - 82912-74240 (Transport)</p>
+                                                                            <p
+                                                                                style="font-family:'Arial', sans-serif; color:#000000; font-size:16px; line-height:24px; margin:5px 0;">
+                                                                                <a href="https://salesiq.zohopublic.in/signaturesupport.ls?widgetcode=siq1b9965ffb89925f31d5ec296625e2eccb3dbaf6ba1429e3a1a01b889329eb6e2"
+                                                                                    style="color:#0000FF; text-decoration:none;"><strong>Click
+                                                                                        Here to Chat with
+                                                                                        us.</strong></a>
+                                                                            </p>
+                                                                            <p
+                                                                                style="font-family:'Arial', sans-serif; color:#000000; font-size:16px; line-height:24px; margin:5px 0;">
+                                                                                sales.marketing@indiacarz.com</p>
+                                                                            <p
+                                                                                style="font-family:'Arial', sans-serif; color:#000000; font-size:16px; line-height:24px; margin:5px 0;">
+                                                                                hotelsales.bom@kalltrip.com</p>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td
+                                                            style="padding-top:16px; margin: 0px; background-color: #666;">
+                                                            <table cellpadding="0" cellspacing="0" class="es-left"
+                                                                style="float:left; width:48%;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <table cellpadding="0" cellspacing="0"
+                                                                                class="es-social"
+                                                                                style="border-collapse:collapse;">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td align="center"
+                                                                                            style="padding:0; margin:0; padding-right:10px;">
+                                                                                            <img alt="Fb" height="50"
+                                                                                                src="https://aisxkj.stripocdn.email/content/assets/img/social-icons/logo-black/facebook-logo-black.png"
+                                                                                                style="display:block; border:0; outline:none; text-decoration:none;"
+                                                                                                title="Facebook"
+                                                                                                width="45" />
+                                                                                        </td>
+                                                                                        <td align="center"
+                                                                                            style="padding:0; margin:0; padding-right:10px;">
+                                                                                            <img alt="Tw" height="45"
+                                                                                                src="https://aisxkj.stripocdn.email/content/assets/img/social-icons/logo-black/twitter-logo-black.png"
+                                                                                                style="display:block; border:0; outline:none; text-decoration:none;"
+                                                                                                title="Twitter"
+                                                                                                width="40" />
+                                                                                        </td>
+                                                                                        <td align="center"
+                                                                                            style="padding:0; margin:0; padding-right:10px;">
+                                                                                            <img alt="Inst" height="40"
+                                                                                                src="https://aisxkj.stripocdn.email/content/assets/img/social-icons/logo-black/instagram-logo-black.png"
+                                                                                                style="display:block; border:0; outline:none; text-decoration:none;"
+                                                                                                title="Instagram"
+                                                                                                width="40" />
+                                                                                        </td>
+                                                                                        <td align="center"
+                                                                                            style="padding:0; margin:0;">
+                                                                                            <img alt="Yt" height="55"
+                                                                                                src="https://aisxkj.stripocdn.email/content/assets/img/social-icons/logo-black/youtube-logo-black.png"
+                                                                                                style="display:block; border:0; outline:none; text-decoration:none;"
+                                                                                                title="Youtube"
+                                                                                                width="40" />
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+
+                                                            <table align="right" cellpadding="0" cellspacing="0"
+                                                                class="es-right" style="float:right; width:48%;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <h4
+                                                                                style="font-family:'Arial', sans-serif; color:#0e0e0e; font-size:16px; line-height:20px; margin: 0px;">
+                                                                                <a href="tel:82912-74240"
+                                                                                    style="color:#0e0e0e; text-decoration:none;">8</a>2912-74240
+                                                                                (Call/WApp)
+                                                                            </h4>
+                                                                            <p
+                                                                                style="font-family:'Arial', sans-serif; color: rgb(0, 6, 0); font-size:18px; line-height:24px; margin:10px 0;">
+                                                                                sales.marketing@indiacarz.com</p>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
                                         </div>
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
-
-                        <table align="center" cellpadding="0" cellspacing="0" class="es-content"
+                       <table align="center" cellpadding="0" cellspacing="0" class="es-content"
                             style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%">
                             <tbody>
                                 <tr style="border-collapse:collapse">
@@ -2670,6 +2837,7 @@
         </table>
         </td>
         </tr>
+
         </tbody>
         </table>
     </div>
